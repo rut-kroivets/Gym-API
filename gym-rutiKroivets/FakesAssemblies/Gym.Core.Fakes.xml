@@ -1,0 +1,881 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gym.Core.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Gym.Core.DTOs.Fakes.ShimGuideDto">
+            <summary>Shim type of Gym.Core.DTOs.GuideDto</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.ShimGuideDto.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.ShimGuideDto.#ctor(Gym.Core.DTOs.GuideDto)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.AddressGet">
+            <summary>Sets the Shim of GuideDto.get_Address(GuideDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.AddressSetString">
+            <summary>Sets the Shim of GuideDto.set_Address(GuideDto this, String value)</summary>
+        </member>
+        <member name="T:Gym.Core.DTOs.Fakes.ShimGuideDto.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.AllInstances.AddressGet">
+            <summary>Sets the Shim of GuideDto.get_Address(GuideDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.AllInstances.AddressSetString">
+            <summary>Sets the Shim of GuideDto.set_Address(GuideDto this, String value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.AllInstances.IdGet">
+            <summary>Sets the Shim of GuideDto.get_Id(GuideDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.AllInstances.IdSetInt32">
+            <summary>Sets the Shim of GuideDto.set_Id(GuideDto this, Int32 value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.AllInstances.NameGet">
+            <summary>Sets the Shim of GuideDto.get_Name(GuideDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.AllInstances.NameSetString">
+            <summary>Sets the Shim of GuideDto.set_Name(GuideDto this, String value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.AllInstances.SeniorityGet">
+            <summary>Sets the Shim of GuideDto.get_Seniority(GuideDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.AllInstances.SenioritySetInt32">
+            <summary>Sets the Shim of GuideDto.set_Seniority(GuideDto this, Int32 value)</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.ShimGuideDto.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.ShimGuideDto.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.Constructor">
+            <summary>Sets the Shim of GuideDto.GuideDto(GuideDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.IdGet">
+            <summary>Sets the Shim of GuideDto.get_Id(GuideDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.IdSetInt32">
+            <summary>Sets the Shim of GuideDto.set_Id(GuideDto this, Int32 value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.NameGet">
+            <summary>Sets the Shim of GuideDto.get_Name(GuideDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.NameSetString">
+            <summary>Sets the Shim of GuideDto.set_Name(GuideDto this, String value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.SeniorityGet">
+            <summary>Sets the Shim of GuideDto.get_Seniority(GuideDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimGuideDto.SenioritySetInt32">
+            <summary>Sets the Shim of GuideDto.set_Seniority(GuideDto this, Int32 value)</summary>
+        </member>
+        <member name="T:Gym.Core.DTOs.Fakes.ShimStudentDto">
+            <summary>Shim type of Gym.Core.DTOs.StudentDto</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.ShimStudentDto.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.ShimStudentDto.#ctor(Gym.Core.DTOs.StudentDto)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.AddressGet">
+            <summary>Sets the Shim of StudentDto.get_Address(StudentDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.AddressSetString">
+            <summary>Sets the Shim of StudentDto.set_Address(StudentDto this, String value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.AgeGet">
+            <summary>Sets the Shim of StudentDto.get_Age(StudentDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.AgeSetInt32">
+            <summary>Sets the Shim of StudentDto.set_Age(StudentDto this, Int32 value)</summary>
+        </member>
+        <member name="T:Gym.Core.DTOs.Fakes.ShimStudentDto.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.AllInstances.AddressGet">
+            <summary>Sets the Shim of StudentDto.get_Address(StudentDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.AllInstances.AddressSetString">
+            <summary>Sets the Shim of StudentDto.set_Address(StudentDto this, String value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.AllInstances.AgeGet">
+            <summary>Sets the Shim of StudentDto.get_Age(StudentDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.AllInstances.AgeSetInt32">
+            <summary>Sets the Shim of StudentDto.set_Age(StudentDto this, Int32 value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.AllInstances.IdGet">
+            <summary>Sets the Shim of StudentDto.get_Id(StudentDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.AllInstances.IdSetInt32">
+            <summary>Sets the Shim of StudentDto.set_Id(StudentDto this, Int32 value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.AllInstances.NameGet">
+            <summary>Sets the Shim of StudentDto.get_Name(StudentDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.AllInstances.NameSetString">
+            <summary>Sets the Shim of StudentDto.set_Name(StudentDto this, String value)</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.ShimStudentDto.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.ShimStudentDto.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.Constructor">
+            <summary>Sets the Shim of StudentDto.StudentDto(StudentDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.IdGet">
+            <summary>Sets the Shim of StudentDto.get_Id(StudentDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.IdSetInt32">
+            <summary>Sets the Shim of StudentDto.set_Id(StudentDto this, Int32 value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.NameGet">
+            <summary>Sets the Shim of StudentDto.get_Name(StudentDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimStudentDto.NameSetString">
+            <summary>Sets the Shim of StudentDto.set_Name(StudentDto this, String value)</summary>
+        </member>
+        <member name="T:Gym.Core.DTOs.Fakes.ShimTrainingDto">
+            <summary>Shim type of Gym.Core.DTOs.TrainingDto</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.ShimTrainingDto.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.ShimTrainingDto.#ctor(Gym.Core.DTOs.TrainingDto)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Gym.Core.DTOs.Fakes.ShimTrainingDto.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.AllInstances.DayGet">
+            <summary>Sets the Shim of TrainingDto.get_Day(TrainingDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.AllInstances.DaySetInt32">
+            <summary>Sets the Shim of TrainingDto.set_Day(TrainingDto this, Int32 value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.AllInstances.GuidGet">
+            <summary>Sets the Shim of TrainingDto.get_Guid(TrainingDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.AllInstances.GuidSetGuide">
+            <summary>Sets the Shim of TrainingDto.set_Guid(TrainingDto this, Guide value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.AllInstances.HourGet">
+            <summary>Sets the Shim of TrainingDto.get_Hour(TrainingDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.AllInstances.HourSetDouble">
+            <summary>Sets the Shim of TrainingDto.set_Hour(TrainingDto this, Double value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.AllInstances.IdGet">
+            <summary>Sets the Shim of TrainingDto.get_Id(TrainingDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.AllInstances.IdSetInt32">
+            <summary>Sets the Shim of TrainingDto.set_Id(TrainingDto this, Int32 value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.AllInstances.TitleGet">
+            <summary>Sets the Shim of TrainingDto.get_Title(TrainingDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.AllInstances.TitleSetString">
+            <summary>Sets the Shim of TrainingDto.set_Title(TrainingDto this, String value)</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.ShimTrainingDto.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.ShimTrainingDto.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.Constructor">
+            <summary>Sets the Shim of TrainingDto.TrainingDto(TrainingDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.DayGet">
+            <summary>Sets the Shim of TrainingDto.get_Day(TrainingDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.DaySetInt32">
+            <summary>Sets the Shim of TrainingDto.set_Day(TrainingDto this, Int32 value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.GuidGet">
+            <summary>Sets the Shim of TrainingDto.get_Guid(TrainingDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.GuidSetGuide">
+            <summary>Sets the Shim of TrainingDto.set_Guid(TrainingDto this, Guide value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.HourGet">
+            <summary>Sets the Shim of TrainingDto.get_Hour(TrainingDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.HourSetDouble">
+            <summary>Sets the Shim of TrainingDto.set_Hour(TrainingDto this, Double value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.IdGet">
+            <summary>Sets the Shim of TrainingDto.get_Id(TrainingDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.IdSetInt32">
+            <summary>Sets the Shim of TrainingDto.set_Id(TrainingDto this, Int32 value)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.TitleGet">
+            <summary>Sets the Shim of TrainingDto.get_Title(TrainingDto this)</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.ShimTrainingDto.TitleSetString">
+            <summary>Sets the Shim of TrainingDto.set_Title(TrainingDto this, String value)</summary>
+        </member>
+        <member name="T:Gym.Core.DTOs.Fakes.StubGuideDto">
+            <summary>Stub type of Gym.Core.DTOs.GuideDto</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.StubGuideDto.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.StubGuideDto.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.StubGuideDto.InitializeStub">
+            <summary>Initializes a new instance of type StubGuideDto</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.StubGuideDto.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.StubGuideDto.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Gym.Core.DTOs.Fakes.StubStudentDto">
+            <summary>Stub type of Gym.Core.DTOs.StudentDto</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.StubStudentDto.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.StubStudentDto.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.StubStudentDto.InitializeStub">
+            <summary>Initializes a new instance of type StubStudentDto</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.StubStudentDto.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.StubStudentDto.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Gym.Core.DTOs.Fakes.StubTrainingDto">
+            <summary>Stub type of Gym.Core.DTOs.TrainingDto</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.StubTrainingDto.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.StubTrainingDto.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Gym.Core.DTOs.Fakes.StubTrainingDto.InitializeStub">
+            <summary>Initializes a new instance of type StubTrainingDto</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.StubTrainingDto.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Gym.Core.DTOs.Fakes.StubTrainingDto.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Gym.Core.Mapping.Fakes.ShimMappingProfile">
+            <summary>Shim type of Gym.Core.Mapping.MappingProfile</summary>
+        </member>
+        <member name="M:Gym.Core.Mapping.Fakes.ShimMappingProfile.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Gym.Core.Mapping.Fakes.ShimMappingProfile.#ctor(Gym.Core.Mapping.MappingProfile)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Gym.Core.Mapping.Fakes.ShimMappingProfile.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Gym.Core.Mapping.Fakes.ShimMappingProfile.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Gym.Core.Mapping.Fakes.ShimMappingProfile.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Gym.Core.Mapping.Fakes.ShimMappingProfile.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Gym.Core.Mapping.Fakes.ShimMappingProfile.Bind(AutoMapper.IProfileConfiguration)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Gym.Core.Mapping.Fakes.ShimMappingProfile.Bind(AutoMapper.IProfileExpression)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Gym.Core.Mapping.Fakes.ShimMappingProfile.Bind(AutoMapper.Internal.IProfileExpressionInternal)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Gym.Core.Mapping.Fakes.ShimMappingProfile.Constructor">
+            <summary>Sets the Shim of MappingProfile.MappingProfile(MappingProfile this)</summary>
+        </member>
+        <member name="T:Gym.Core.Mapping.Fakes.StubMappingProfile">
+            <summary>Stub type of Gym.Core.Mapping.MappingProfile</summary>
+        </member>
+        <member name="M:Gym.Core.Mapping.Fakes.StubMappingProfile.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Gym.Core.Mapping.Fakes.StubMappingProfile.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Gym.Core.Mapping.Fakes.StubMappingProfile.InitializeStub">
+            <summary>Initializes a new instance of type StubMappingProfile</summary>
+        </member>
+        <member name="P:Gym.Core.Mapping.Fakes.StubMappingProfile.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Gym.Core.Mapping.Fakes.StubMappingProfile.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Gym.Core.Mapping.Fakes.StubMappingProfile.ProfileName">
+            <summary>Sets the stub of Profile.get_ProfileName(Profile this)</summary>
+        </member>
+        <member name="F:Gym.Core.Mapping.Fakes.StubMappingProfile.ProfileNameGet">
+            <summary>Sets the stub of Profile.get_ProfileName(Profile this)</summary>
+        </member>
+        <member name="T:Gym.Core.Repository.Fakes.StubIGuideRepository">
+            <summary>Stub type of Gym.Core.Repository.IGuideRepository</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubIGuideRepository.#ctor">
+            <summary>Initializes a new instance of type StubIGuideRepository</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubIGuideRepository.DeleteAsyncInt32">
+            <summary>Sets the stub of IGuideRepository.DeleteAsync(IGuideRepository this, Int32 id)</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubIGuideRepository.Get">
+            <summary>Sets the stub of IGuideRepository.Get(IGuideRepository this)</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubIGuideRepository.GetInt32">
+            <summary>Sets the stub of IGuideRepository.Get(IGuideRepository this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubIGuideRepository.Gym#Core#Repository#IGuideRepository#DeleteAsync(System.Int32)">
+            <summary>Sets the Stub of IGuideRepository.DeleteAsync(IGuideRepository this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubIGuideRepository.Gym#Core#Repository#IGuideRepository#Get(System.Int32)">
+            <summary>Sets the Stub of IGuideRepository.Get(IGuideRepository this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubIGuideRepository.Gym#Core#Repository#IGuideRepository#Get">
+            <summary>Sets the Stub of IGuideRepository.Get(IGuideRepository this)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubIGuideRepository.Gym#Core#Repository#IGuideRepository#PostAsync(gym_rutiKroivets.Entities.Guide)">
+            <summary>Sets the Stub of IGuideRepository.PostAsync(IGuideRepository this, Guide g)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubIGuideRepository.Gym#Core#Repository#IGuideRepository#PutAsync(System.Int32,gym_rutiKroivets.Entities.Guide)">
+            <summary>Sets the Stub of IGuideRepository.PutAsync(IGuideRepository this, Int32 id, Guide g)</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubIGuideRepository.PostAsyncGuide">
+            <summary>Sets the stub of IGuideRepository.PostAsync(IGuideRepository this, Guide g)</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubIGuideRepository.PutAsyncInt32Guide">
+            <summary>Sets the stub of IGuideRepository.PutAsync(IGuideRepository this, Int32 id, Guide g)</summary>
+        </member>
+        <member name="T:Gym.Core.Repository.Fakes.StubIStudentRepository">
+            <summary>Stub type of Gym.Core.Repository.IStudentRepository</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubIStudentRepository.#ctor">
+            <summary>Initializes a new instance of type StubIStudentRepository</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubIStudentRepository.DeleteAsyncInt32">
+            <summary>Sets the stub of IStudentRepository.DeleteAsync(IStudentRepository this, Int32 id)</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubIStudentRepository.Get">
+            <summary>Sets the stub of IStudentRepository.Get(IStudentRepository this)</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubIStudentRepository.GetInt32">
+            <summary>Sets the stub of IStudentRepository.Get(IStudentRepository this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubIStudentRepository.Gym#Core#Repository#IStudentRepository#DeleteAsync(System.Int32)">
+            <summary>Sets the Stub of IStudentRepository.DeleteAsync(IStudentRepository this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubIStudentRepository.Gym#Core#Repository#IStudentRepository#Get(System.Int32)">
+            <summary>Sets the Stub of IStudentRepository.Get(IStudentRepository this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubIStudentRepository.Gym#Core#Repository#IStudentRepository#Get">
+            <summary>Sets the Stub of IStudentRepository.Get(IStudentRepository this)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubIStudentRepository.Gym#Core#Repository#IStudentRepository#PostAsync(gym_rutiKroivets.Entities.Student)">
+            <summary>Sets the Stub of IStudentRepository.PostAsync(IStudentRepository this, Student s)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubIStudentRepository.Gym#Core#Repository#IStudentRepository#PutAsync(System.Int32,gym_rutiKroivets.Entities.Student)">
+            <summary>Sets the Stub of IStudentRepository.PutAsync(IStudentRepository this, Int32 id, Student s)</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubIStudentRepository.PostAsyncStudent">
+            <summary>Sets the stub of IStudentRepository.PostAsync(IStudentRepository this, Student s)</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubIStudentRepository.PutAsyncInt32Student">
+            <summary>Sets the stub of IStudentRepository.PutAsync(IStudentRepository this, Int32 id, Student s)</summary>
+        </member>
+        <member name="T:Gym.Core.Repository.Fakes.StubITrainingRepository">
+            <summary>Stub type of Gym.Core.Repository.ITrainingRepository</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubITrainingRepository.#ctor">
+            <summary>Initializes a new instance of type StubITrainingRepository</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubITrainingRepository.DeleteAsyncInt32">
+            <summary>Sets the stub of ITrainingRepository.DeleteAsync(ITrainingRepository this, Int32 id)</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubITrainingRepository.Get">
+            <summary>Sets the stub of ITrainingRepository.Get(ITrainingRepository this)</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubITrainingRepository.GetInt32">
+            <summary>Sets the stub of ITrainingRepository.Get(ITrainingRepository this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubITrainingRepository.Gym#Core#Repository#ITrainingRepository#DeleteAsync(System.Int32)">
+            <summary>Sets the Stub of ITrainingRepository.DeleteAsync(ITrainingRepository this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubITrainingRepository.Gym#Core#Repository#ITrainingRepository#Get(System.Int32)">
+            <summary>Sets the Stub of ITrainingRepository.Get(ITrainingRepository this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubITrainingRepository.Gym#Core#Repository#ITrainingRepository#Get">
+            <summary>Sets the Stub of ITrainingRepository.Get(ITrainingRepository this)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubITrainingRepository.Gym#Core#Repository#ITrainingRepository#PostAsync(gym_rutiKroivets.Entities.Training)">
+            <summary>Sets the Stub of ITrainingRepository.PostAsync(ITrainingRepository this, Training t)</summary>
+        </member>
+        <member name="M:Gym.Core.Repository.Fakes.StubITrainingRepository.Gym#Core#Repository#ITrainingRepository#PutAsync(System.Int32,gym_rutiKroivets.Entities.Training)">
+            <summary>Sets the Stub of ITrainingRepository.PutAsync(ITrainingRepository this, Int32 id, Training s)</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubITrainingRepository.PostAsyncTraining">
+            <summary>Sets the stub of ITrainingRepository.PostAsync(ITrainingRepository this, Training t)</summary>
+        </member>
+        <member name="F:Gym.Core.Repository.Fakes.StubITrainingRepository.PutAsyncInt32Training">
+            <summary>Sets the stub of ITrainingRepository.PutAsync(ITrainingRepository this, Int32 id, Training s)</summary>
+        </member>
+        <member name="T:Gym.Core.Service.Fakes.StubIGuideService">
+            <summary>Stub type of Gym.Core.Service.IGuideService</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubIGuideService.#ctor">
+            <summary>Initializes a new instance of type StubIGuideService</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubIGuideService.DeleteAsyncInt32">
+            <summary>Sets the stub of IGuideService.DeleteAsync(IGuideService this, Int32 id)</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubIGuideService.Get">
+            <summary>Sets the stub of IGuideService.Get(IGuideService this)</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubIGuideService.GetInt32">
+            <summary>Sets the stub of IGuideService.Get(IGuideService this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubIGuideService.Gym#Core#Service#IGuideService#DeleteAsync(System.Int32)">
+            <summary>Sets the Stub of IGuideService.DeleteAsync(IGuideService this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubIGuideService.Gym#Core#Service#IGuideService#Get(System.Int32)">
+            <summary>Sets the Stub of IGuideService.Get(IGuideService this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubIGuideService.Gym#Core#Service#IGuideService#Get">
+            <summary>Sets the Stub of IGuideService.Get(IGuideService this)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubIGuideService.Gym#Core#Service#IGuideService#PostAsync(gym_rutiKroivets.Entities.Guide)">
+            <summary>Sets the Stub of IGuideService.PostAsync(IGuideService this, Guide g)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubIGuideService.Gym#Core#Service#IGuideService#PutAsync(System.Int32,gym_rutiKroivets.Entities.Guide)">
+            <summary>Sets the Stub of IGuideService.PutAsync(IGuideService this, Int32 id, Guide g)</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubIGuideService.PostAsyncGuide">
+            <summary>Sets the stub of IGuideService.PostAsync(IGuideService this, Guide g)</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubIGuideService.PutAsyncInt32Guide">
+            <summary>Sets the stub of IGuideService.PutAsync(IGuideService this, Int32 id, Guide g)</summary>
+        </member>
+        <member name="T:Gym.Core.Service.Fakes.StubIStudentService">
+            <summary>Stub type of Gym.Core.Service.IStudentService</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubIStudentService.#ctor">
+            <summary>Initializes a new instance of type StubIStudentService</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubIStudentService.DeleteAsyncInt32">
+            <summary>Sets the stub of IStudentService.DeleteAsync(IStudentService this, Int32 id)</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubIStudentService.Get">
+            <summary>Sets the stub of IStudentService.Get(IStudentService this)</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubIStudentService.GetInt32">
+            <summary>Sets the stub of IStudentService.Get(IStudentService this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubIStudentService.Gym#Core#Service#IStudentService#DeleteAsync(System.Int32)">
+            <summary>Sets the Stub of IStudentService.DeleteAsync(IStudentService this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubIStudentService.Gym#Core#Service#IStudentService#Get(System.Int32)">
+            <summary>Sets the Stub of IStudentService.Get(IStudentService this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubIStudentService.Gym#Core#Service#IStudentService#Get">
+            <summary>Sets the Stub of IStudentService.Get(IStudentService this)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubIStudentService.Gym#Core#Service#IStudentService#PostAsync(gym_rutiKroivets.Entities.Student)">
+            <summary>Sets the Stub of IStudentService.PostAsync(IStudentService this, Student s)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubIStudentService.Gym#Core#Service#IStudentService#PutAsync(System.Int32,gym_rutiKroivets.Entities.Student)">
+            <summary>Sets the Stub of IStudentService.PutAsync(IStudentService this, Int32 id, Student s)</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubIStudentService.PostAsyncStudent">
+            <summary>Sets the stub of IStudentService.PostAsync(IStudentService this, Student s)</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubIStudentService.PutAsyncInt32Student">
+            <summary>Sets the stub of IStudentService.PutAsync(IStudentService this, Int32 id, Student s)</summary>
+        </member>
+        <member name="T:Gym.Core.Service.Fakes.StubITrainingService">
+            <summary>Stub type of Gym.Core.Service.ITrainingService</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubITrainingService.#ctor">
+            <summary>Initializes a new instance of type StubITrainingService</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubITrainingService.DeleteAsyncInt32">
+            <summary>Sets the stub of ITrainingService.DeleteAsync(ITrainingService this, Int32 id)</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubITrainingService.Get">
+            <summary>Sets the stub of ITrainingService.Get(ITrainingService this)</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubITrainingService.GetInt32">
+            <summary>Sets the stub of ITrainingService.Get(ITrainingService this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubITrainingService.Gym#Core#Service#ITrainingService#DeleteAsync(System.Int32)">
+            <summary>Sets the Stub of ITrainingService.DeleteAsync(ITrainingService this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubITrainingService.Gym#Core#Service#ITrainingService#Get(System.Int32)">
+            <summary>Sets the Stub of ITrainingService.Get(ITrainingService this, Int32 id)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubITrainingService.Gym#Core#Service#ITrainingService#Get">
+            <summary>Sets the Stub of ITrainingService.Get(ITrainingService this)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubITrainingService.Gym#Core#Service#ITrainingService#PostAsync(gym_rutiKroivets.Entities.Training)">
+            <summary>Sets the Stub of ITrainingService.PostAsync(ITrainingService this, Training t)</summary>
+        </member>
+        <member name="M:Gym.Core.Service.Fakes.StubITrainingService.Gym#Core#Service#ITrainingService#PutAsync(System.Int32,gym_rutiKroivets.Entities.Training)">
+            <summary>Sets the Stub of ITrainingService.PutAsync(ITrainingService this, Int32 id, Training s)</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubITrainingService.PostAsyncTraining">
+            <summary>Sets the stub of ITrainingService.PostAsync(ITrainingService this, Training t)</summary>
+        </member>
+        <member name="F:Gym.Core.Service.Fakes.StubITrainingService.PutAsyncInt32Training">
+            <summary>Sets the stub of ITrainingService.PutAsync(ITrainingService this, Int32 id, Training s)</summary>
+        </member>
+        <member name="T:gym_rutiKroivets.Entities.Fakes.ShimGuide">
+            <summary>Shim type of gym_rutiKroivets.Entities.Guide</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.ShimGuide.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.ShimGuide.#ctor(gym_rutiKroivets.Entities.Guide)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.AddressGet">
+            <summary>Sets the Shim of Guide.get_Address(Guide this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.AddressSetString">
+            <summary>Sets the Shim of Guide.set_Address(Guide this, String value)</summary>
+        </member>
+        <member name="T:gym_rutiKroivets.Entities.Fakes.ShimGuide.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.AllInstances.AddressGet">
+            <summary>Sets the Shim of Guide.get_Address(Guide this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.AllInstances.AddressSetString">
+            <summary>Sets the Shim of Guide.set_Address(Guide this, String value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.AllInstances.IdGet">
+            <summary>Sets the Shim of Guide.get_Id(Guide this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.AllInstances.IdSetInt32">
+            <summary>Sets the Shim of Guide.set_Id(Guide this, Int32 value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.AllInstances.NameGet">
+            <summary>Sets the Shim of Guide.get_Name(Guide this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.AllInstances.NameSetString">
+            <summary>Sets the Shim of Guide.set_Name(Guide this, String value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.AllInstances.SeniorityGet">
+            <summary>Sets the Shim of Guide.get_Seniority(Guide this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.AllInstances.SenioritySetInt32">
+            <summary>Sets the Shim of Guide.set_Seniority(Guide this, Int32 value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.AllInstances.TrainingsGet">
+            <summary>Sets the Shim of Guide.get_Trainings(Guide this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.AllInstances.TrainingsSetListOfTraining">
+            <summary>Sets the Shim of Guide.set_Trainings(Guide this, List`1 value)</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.ShimGuide.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.ShimGuide.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.Constructor">
+            <summary>Sets the Shim of Guide.Guide(Guide this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.IdGet">
+            <summary>Sets the Shim of Guide.get_Id(Guide this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.IdSetInt32">
+            <summary>Sets the Shim of Guide.set_Id(Guide this, Int32 value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.NameGet">
+            <summary>Sets the Shim of Guide.get_Name(Guide this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.NameSetString">
+            <summary>Sets the Shim of Guide.set_Name(Guide this, String value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.SeniorityGet">
+            <summary>Sets the Shim of Guide.get_Seniority(Guide this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.SenioritySetInt32">
+            <summary>Sets the Shim of Guide.set_Seniority(Guide this, Int32 value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.TrainingsGet">
+            <summary>Sets the Shim of Guide.get_Trainings(Guide this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimGuide.TrainingsSetListOfTraining">
+            <summary>Sets the Shim of Guide.set_Trainings(Guide this, List`1 value)</summary>
+        </member>
+        <member name="T:gym_rutiKroivets.Entities.Fakes.ShimStudent">
+            <summary>Shim type of gym_rutiKroivets.Entities.Student</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.ShimStudent.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.ShimStudent.#ctor(gym_rutiKroivets.Entities.Student)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.AddressGet">
+            <summary>Sets the Shim of Student.get_Address(Student this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.AddressSetString">
+            <summary>Sets the Shim of Student.set_Address(Student this, String value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.AgeGet">
+            <summary>Sets the Shim of Student.get_Age(Student this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.AgeSetInt32">
+            <summary>Sets the Shim of Student.set_Age(Student this, Int32 value)</summary>
+        </member>
+        <member name="T:gym_rutiKroivets.Entities.Fakes.ShimStudent.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.AllInstances.AddressGet">
+            <summary>Sets the Shim of Student.get_Address(Student this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.AllInstances.AddressSetString">
+            <summary>Sets the Shim of Student.set_Address(Student this, String value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.AllInstances.AgeGet">
+            <summary>Sets the Shim of Student.get_Age(Student this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.AllInstances.AgeSetInt32">
+            <summary>Sets the Shim of Student.set_Age(Student this, Int32 value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.AllInstances.IdGet">
+            <summary>Sets the Shim of Student.get_Id(Student this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.AllInstances.IdSetInt32">
+            <summary>Sets the Shim of Student.set_Id(Student this, Int32 value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.AllInstances.NameGet">
+            <summary>Sets the Shim of Student.get_Name(Student this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.AllInstances.NameSetString">
+            <summary>Sets the Shim of Student.set_Name(Student this, String value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.AllInstances.TrainingsGet">
+            <summary>Sets the Shim of Student.get_Trainings(Student this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.AllInstances.TrainingsSetListOfTraining">
+            <summary>Sets the Shim of Student.set_Trainings(Student this, List`1 value)</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.ShimStudent.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.ShimStudent.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.Constructor">
+            <summary>Sets the Shim of Student.Student(Student this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.IdGet">
+            <summary>Sets the Shim of Student.get_Id(Student this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.IdSetInt32">
+            <summary>Sets the Shim of Student.set_Id(Student this, Int32 value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.NameGet">
+            <summary>Sets the Shim of Student.get_Name(Student this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.NameSetString">
+            <summary>Sets the Shim of Student.set_Name(Student this, String value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.TrainingsGet">
+            <summary>Sets the Shim of Student.get_Trainings(Student this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimStudent.TrainingsSetListOfTraining">
+            <summary>Sets the Shim of Student.set_Trainings(Student this, List`1 value)</summary>
+        </member>
+        <member name="T:gym_rutiKroivets.Entities.Fakes.ShimTraining">
+            <summary>Shim type of gym_rutiKroivets.Entities.Training</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.ShimTraining.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.ShimTraining.#ctor(gym_rutiKroivets.Entities.Training)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:gym_rutiKroivets.Entities.Fakes.ShimTraining.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.AllInstances.DayGet">
+            <summary>Sets the Shim of Training.get_Day(Training this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.AllInstances.DaySetInt32">
+            <summary>Sets the Shim of Training.set_Day(Training this, Int32 value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.AllInstances.GuidGet">
+            <summary>Sets the Shim of Training.get_Guid(Training this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.AllInstances.GuidSetGuide">
+            <summary>Sets the Shim of Training.set_Guid(Training this, Guide value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.AllInstances.HourGet">
+            <summary>Sets the Shim of Training.get_Hour(Training this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.AllInstances.HourSetDouble">
+            <summary>Sets the Shim of Training.set_Hour(Training this, Double value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.AllInstances.IdGet">
+            <summary>Sets the Shim of Training.get_Id(Training this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.AllInstances.IdSetInt32">
+            <summary>Sets the Shim of Training.set_Id(Training this, Int32 value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.AllInstances.StudentsGet">
+            <summary>Sets the Shim of Training.get_Students(Training this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.AllInstances.StudentsSetListOfStudent">
+            <summary>Sets the Shim of Training.set_Students(Training this, List`1 value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.AllInstances.TitleGet">
+            <summary>Sets the Shim of Training.get_Title(Training this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.AllInstances.TitleSetString">
+            <summary>Sets the Shim of Training.set_Title(Training this, String value)</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.ShimTraining.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.ShimTraining.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.Constructor">
+            <summary>Sets the Shim of Training.Training(Training this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.DayGet">
+            <summary>Sets the Shim of Training.get_Day(Training this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.DaySetInt32">
+            <summary>Sets the Shim of Training.set_Day(Training this, Int32 value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.GuidGet">
+            <summary>Sets the Shim of Training.get_Guid(Training this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.GuidSetGuide">
+            <summary>Sets the Shim of Training.set_Guid(Training this, Guide value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.HourGet">
+            <summary>Sets the Shim of Training.get_Hour(Training this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.HourSetDouble">
+            <summary>Sets the Shim of Training.set_Hour(Training this, Double value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.IdGet">
+            <summary>Sets the Shim of Training.get_Id(Training this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.IdSetInt32">
+            <summary>Sets the Shim of Training.set_Id(Training this, Int32 value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.StudentsGet">
+            <summary>Sets the Shim of Training.get_Students(Training this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.StudentsSetListOfStudent">
+            <summary>Sets the Shim of Training.set_Students(Training this, List`1 value)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.TitleGet">
+            <summary>Sets the Shim of Training.get_Title(Training this)</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.ShimTraining.TitleSetString">
+            <summary>Sets the Shim of Training.set_Title(Training this, String value)</summary>
+        </member>
+        <member name="T:gym_rutiKroivets.Entities.Fakes.StubGuide">
+            <summary>Stub type of gym_rutiKroivets.Entities.Guide</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.StubGuide.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.StubGuide.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.StubGuide.InitializeStub">
+            <summary>Initializes a new instance of type StubGuide</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.StubGuide.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.StubGuide.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:gym_rutiKroivets.Entities.Fakes.StubStudent">
+            <summary>Stub type of gym_rutiKroivets.Entities.Student</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.StubStudent.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.StubStudent.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.StubStudent.InitializeStub">
+            <summary>Initializes a new instance of type StubStudent</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.StubStudent.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.StubStudent.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:gym_rutiKroivets.Entities.Fakes.StubTraining">
+            <summary>Stub type of gym_rutiKroivets.Entities.Training</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.StubTraining.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.StubTraining.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:gym_rutiKroivets.Entities.Fakes.StubTraining.InitializeStub">
+            <summary>Initializes a new instance of type StubTraining</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.StubTraining.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:gym_rutiKroivets.Entities.Fakes.StubTraining.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

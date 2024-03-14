@@ -1,0 +1,75 @@
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.deps.json
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.dll
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.pdb
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Core.dll
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Core.pdb
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.AssemblyReference.cache
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.AssemblyInfoInputs.cache
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.AssemblyInfo.cs
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.CoreCompileInputs.cache
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.CopyComplete
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.dll
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\obj\Debug\net6.0\refint\Gym.Service.dll
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.pdb
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Service\obj\Debug\net6.0\ref\Gym.Service.dll
+F:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.AssemblyReference.cache
+F:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.GeneratedMSBuildEditorConfig.editorconfig
+F:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.AssemblyInfoInputs.cache
+F:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.AssemblyInfo.cs
+F:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.CoreCompileInputs.cache
+F:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.dll
+F:\gym-API-main\Gym.Service\obj\Debug\net6.0\refint\Gym.Service.dll
+F:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.pdb
+F:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.deps.json
+F:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.dll
+F:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.pdb
+F:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Core.dll
+F:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Core.pdb
+F:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.CopyComplete
+F:\gym-API-main\Gym.Service\obj\Debug\net6.0\ref\Gym.Service.dll
+D:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.deps.json
+D:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.dll
+D:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.pdb
+D:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Core.dll
+D:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Core.pdb
+D:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.AssemblyReference.cache
+D:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.AssemblyInfoInputs.cache
+D:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.AssemblyInfo.cs
+D:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.CoreCompileInputs.cache
+D:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.CopyComplete
+D:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.dll
+D:\gym-API-main\Gym.Service\obj\Debug\net6.0\refint\Gym.Service.dll
+D:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.pdb
+D:\gym-API-main\Gym.Service\obj\Debug\net6.0\ref\Gym.Service.dll
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.deps.json
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.dll
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.pdb
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Core.dll
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Core.pdb
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.AssemblyReference.cache
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.AssemblyInfoInputs.cache
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.AssemblyInfo.cs
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.CoreCompileInputs.cache
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.CopyComplete
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.dll
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\obj\Debug\net6.0\refint\Gym.Service.dll
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.pdb
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Service\obj\Debug\net6.0\ref\Gym.Service.dll
+E:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.deps.json
+E:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.dll
+E:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.pdb
+E:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Core.dll
+E:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Core.pdb
+E:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.AssemblyReference.cache
+E:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.AssemblyInfoInputs.cache
+E:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.AssemblyInfo.cs
+E:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.CoreCompileInputs.cache
+E:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.csproj.CopyComplete
+E:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.dll
+E:\gym-API-main\Gym.Service\obj\Debug\net6.0\refint\Gym.Service.dll
+E:\gym-API-main\Gym.Service\obj\Debug\net6.0\Gym.Service.pdb
+E:\gym-API-main\Gym.Service\obj\Debug\net6.0\ref\Gym.Service.dll

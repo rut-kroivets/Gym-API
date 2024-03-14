@@ -1,0 +1,85 @@
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.deps.json
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.runtimeconfig.json
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.dll
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.pdb
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Core.dll
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Core.pdb
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.AssemblyReference.cache
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.AssemblyInfoInputs.cache
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.AssemblyInfo.cs
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.CoreCompileInputs.cache
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.CopyComplete
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.dll
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\obj\Debug\net6.0\refint\Gym.Data.dll
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.pdb
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.genruntimeconfig.cache
+C:\Users\hitmachut\Downloads\gym-API-main\Gym.Data\obj\Debug\net6.0\ref\Gym.Data.dll
+F:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.deps.json
+F:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.runtimeconfig.json
+F:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.dll
+F:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.pdb
+F:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Core.dll
+F:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Core.pdb
+F:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.AssemblyReference.cache
+F:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.AssemblyInfoInputs.cache
+F:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.AssemblyInfo.cs
+F:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.CoreCompileInputs.cache
+F:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.CopyComplete
+F:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.dll
+F:\gym-API-main\Gym.Data\obj\Debug\net6.0\refint\Gym.Data.dll
+F:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.pdb
+F:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.genruntimeconfig.cache
+F:\gym-API-main\Gym.Data\obj\Debug\net6.0\ref\Gym.Data.dll
+D:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.deps.json
+D:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.runtimeconfig.json
+D:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.dll
+D:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.pdb
+D:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Core.dll
+D:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Core.pdb
+D:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.AssemblyReference.cache
+D:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.AssemblyInfoInputs.cache
+D:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.AssemblyInfo.cs
+D:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.CoreCompileInputs.cache
+D:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.CopyComplete
+D:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.dll
+D:\gym-API-main\Gym.Data\obj\Debug\net6.0\refint\Gym.Data.dll
+D:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.pdb
+D:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.genruntimeconfig.cache
+D:\gym-API-main\Gym.Data\obj\Debug\net6.0\ref\Gym.Data.dll
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.deps.json
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.runtimeconfig.json
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.dll
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.pdb
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Core.dll
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Core.pdb
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.AssemblyReference.cache
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.AssemblyInfoInputs.cache
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.AssemblyInfo.cs
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.CoreCompileInputs.cache
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.CopyComplete
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.dll
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\obj\Debug\net6.0\refint\Gym.Data.dll
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.pdb
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.genruntimeconfig.cache
+Y:\Groups\Group_4\קרויבץ  רות\gym-API-main\Gym.Data\obj\Debug\net6.0\ref\Gym.Data.dll
+E:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.deps.json
+E:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.runtimeconfig.json
+E:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.dll
+E:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.pdb
+E:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Core.dll
+E:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Core.pdb
+E:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.AssemblyReference.cache
+E:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.AssemblyInfoInputs.cache
+E:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.AssemblyInfo.cs
+E:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.CoreCompileInputs.cache
+E:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.csproj.CopyComplete
+E:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.dll
+E:\gym-API-main\Gym.Data\obj\Debug\net6.0\refint\Gym.Data.dll
+E:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.pdb
+E:\gym-API-main\Gym.Data\obj\Debug\net6.0\Gym.Data.genruntimeconfig.cache
+E:\gym-API-main\Gym.Data\obj\Debug\net6.0\ref\Gym.Data.dll

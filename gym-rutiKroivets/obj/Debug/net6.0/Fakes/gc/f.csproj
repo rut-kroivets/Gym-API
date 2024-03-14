@@ -1,0 +1,1306 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid />
+    <RootNamespace />
+    <AssemblyName>Gym.Core.Fakes</AssemblyName>
+    <OutputPath>b</OutputPath>
+    <IntermediateOutputPath>o</IntermediateOutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>$(NoWarn);1587;1591;</NoWarn>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <TargetFramework>net6.0</TargetFramework>
+    <CodeContractsEnableRuntimeChecking>True</CodeContractsEnableRuntimeChecking>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE;$(CommonDefineConstants)</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE;$(CommonDefineConstants)</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.qualitytools.testing.fakes\16.11.230815\lib\netstandard2.0\Microsoft.QualityTools.Testing.Fakes.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Aliases>mqttf</Aliases>
+    </Reference>
+    <Reference Include="Gym.Data">
+      <HintPath>D:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Gym.Service">
+      <HintPath>D:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Antiforgery">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Antiforgery.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authentication.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Authentication.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authentication.Cookies">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Authentication.Cookies.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authentication.Core">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Authentication.Core.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authentication">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Authentication.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authentication.OAuth">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Authentication.OAuth.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authorization">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Authorization.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authorization.Policy">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Authorization.Policy.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Components.Authorization">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Components.Authorization.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Components">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Components.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Components.Forms">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Components.Forms.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Components.Server">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Components.Server.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Components.Web">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Components.Web.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Connections.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.CookiePolicy">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.CookiePolicy.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Cors">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Cors.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Cryptography.Internal">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.DataProtection.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.DataProtection">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.DataProtection.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.DataProtection.Extensions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.DataProtection.Extensions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Diagnostics.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Diagnostics">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Diagnostics.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Diagnostics.HealthChecks">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.HostFiltering">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.HostFiltering.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Hosting.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Hosting.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Html.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Html.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Connections.Common">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Http.Connections.Common.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Connections">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Http.Connections.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Http.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Extensions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Http.Extensions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Results">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Http.Results.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.HttpLogging">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.HttpLogging.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.HttpOverrides">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.HttpOverrides.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.HttpsPolicy">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.HttpsPolicy.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Identity">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Identity.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Localization">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Localization.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Localization.Routing">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Localization.Routing.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Metadata">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Metadata.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.ApiExplorer">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.ApiExplorer.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Cors">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.Cors.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.DataAnnotations">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.DataAnnotations.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Formatters.Json">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.Formatters.Json.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Formatters.Xml">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Localization">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.Localization.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Razor">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.Razor.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.RazorPages">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.RazorPages.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.TagHelpers">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.TagHelpers.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.ViewFeatures">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Razor">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Razor.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Razor.Runtime">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Razor.Runtime.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.ResponseCaching.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.ResponseCaching">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.ResponseCaching.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.ResponseCompression">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.ResponseCompression.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Rewrite">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Rewrite.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Routing.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Routing.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Routing">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Routing.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Server.HttpSys">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Server.HttpSys.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Server.IIS">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Server.IIS.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Server.IISIntegration">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Server.IISIntegration.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Server.Kestrel.Core">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Server.Kestrel">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Server.Kestrel.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Server.Kestrel.Transport.Quic">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Session">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Session.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR.Common">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.SignalR.Common.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR.Core">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.SignalR.Core.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.SignalR.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.SignalR.Protocols.Json">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.StaticFiles">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.StaticFiles.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.WebSockets">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.WebSockets.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.WebUtilities">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.WebUtilities.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\Microsoft.CSharp.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Data.SqlClient">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.data.sqlclient\2.1.4\ref\netcoreapp3.1\Microsoft.Data.SqlClient.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.DotNet.PlatformAbstractions">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.dotnet.platformabstractions\2.1.0\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Abstractions">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.entityframeworkcore.abstractions\6.0.25\lib\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.entityframeworkcore\6.0.25\lib\net6.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Relational">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.entityframeworkcore.relational\6.0.25\lib\net6.0\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.SqlServer">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.entityframeworkcore.sqlserver\6.0.25\lib\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Memory">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Caching.Memory.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Binder">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.CommandLine">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Configuration.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.EnvironmentVariables">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.FileExtensions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Ini">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Configuration.Ini.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Json">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.KeyPerFile">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Configuration.KeyPerFile.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.UserSecrets">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Xml">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Configuration.Xml.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyModel">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.extensions.dependencymodel\2.1.0\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Diagnostics.HealthChecks">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Features">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Features.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Composite">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.FileProviders.Composite.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Embedded">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.FileProviders.Physical.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileSystemGlobbing">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Hosting.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Hosting">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Hosting.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Http">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Http.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Identity.Core">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Identity.Core.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Identity.Stores">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Identity.Stores.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Localization.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Localization.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Localization">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Localization.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Configuration">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Logging.Configuration.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Console">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Logging.Console.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Debug">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Logging.Debug.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Logging.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.EventLog">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Logging.EventLog.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.EventSource">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Logging.EventSource.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.TraceSource">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Logging.TraceSource.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.ObjectPool">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.ObjectPool.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options.ConfigurationExtensions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options.DataAnnotations">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Options.DataAnnotations.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Options.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.Primitives.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.WebEncoders">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Extensions.WebEncoders.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.JsonWebTokens">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.identitymodel.jsonwebtokens\6.8.0\lib\netstandard2.0\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.identitymodel.logging\6.8.0\lib\netstandard2.0\Microsoft.IdentityModel.Logging.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocols">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.identitymodel.protocols\6.8.0\lib\netstandard2.0\Microsoft.IdentityModel.Protocols.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.identitymodel.protocols.openidconnect\6.8.0\lib\netstandard2.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.identitymodel.tokens\6.8.0\lib\netstandard2.0\Microsoft.IdentityModel.Tokens.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.JSInterop">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.JSInterop.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Net.Http.Headers">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Net.Http.Headers.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.OpenApi">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.openapi\1.2.3\lib\netstandard2.0\Microsoft.OpenApi.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Core">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\Microsoft.VisualBasic.Core.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\Microsoft.VisualBasic.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.web.infrastructure\1.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Win32.Primitives.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\Microsoft.Win32.Registry.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\netstandard.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Users\user1\.nuget\packages\newtonsoft.json\9.0.1\lib\netstandard1.0\Newtonsoft.Json.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Swashbuckle.AspNetCore.Swagger">
+      <HintPath>C:\Users\user1\.nuget\packages\swashbuckle.aspnetcore.swagger\6.2.3\lib\net6.0\Swashbuckle.AspNetCore.Swagger.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Swashbuckle.AspNetCore.SwaggerGen">
+      <HintPath>C:\Users\user1\.nuget\packages\swashbuckle.aspnetcore.swaggergen\6.2.3\lib\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Swashbuckle.AspNetCore.SwaggerUI">
+      <HintPath>C:\Users\user1\.nuget\packages\swashbuckle.aspnetcore.swaggerui\6.2.3\lib\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.AppContext.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Buffers.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Collections.Concurrent.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Collections.Immutable">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Collections.Immutable.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Collections.NonGeneric.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Collections.Specialized.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.ComponentModel.Annotations.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.ComponentModel.DataAnnotations.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.ComponentModel.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.ComponentModel.Primitives.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.ComponentModel.TypeConverter.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Configuration.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Console.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Core.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Data.Common.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Data.DataSetExtensions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Data.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Diagnostics.Contracts.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Diagnostics.Debug.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>C:\Users\user1\.nuget\packages\system.diagnostics.diagnosticsource\6.0.1\lib\net6.0\System.Diagnostics.DiagnosticSource.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Diagnostics.EventLog">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\System.Diagnostics.EventLog.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Diagnostics.Process.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Diagnostics.StackTrace.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Diagnostics.Tools.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Diagnostics.TraceSource.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Diagnostics.Tracing.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Drawing.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Drawing.Primitives.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Dynamic.Runtime.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Formats.Asn1">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Formats.Asn1.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Globalization.Calendars.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Globalization.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Globalization.Extensions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IdentityModel.Tokens.Jwt">
+      <HintPath>C:\Users\user1\.nuget\packages\system.identitymodel.tokens.jwt\6.8.0\lib\netstandard2.0\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.Compression.Brotli">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.Compression.Brotli.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.Compression.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.Compression.FileSystem.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.Compression.ZipFile.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.AccessControl">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.FileSystem.AccessControl.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.FileSystem.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.FileSystem.Primitives.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.FileSystem.Watcher.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.IsolatedStorage.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.MemoryMappedFiles.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.Pipelines">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\System.IO.Pipelines.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.Pipes.AccessControl">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.Pipes.AccessControl.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.Pipes.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Linq.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Linq.Expressions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Linq.Parallel.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Linq.Queryable.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Memory.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.Http.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.Http.Json">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.Http.Json.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.HttpListener">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.HttpListener.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.Mail">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.Mail.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.NameResolution.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.NetworkInformation.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.Ping.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.Primitives.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.Requests.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.Security.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.ServicePoint">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.ServicePoint.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.Sockets.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.WebClient">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.WebClient.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.WebHeaderCollection.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.WebProxy">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.WebProxy.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.WebSockets.Client.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Net.WebSockets.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Numerics.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Numerics.Vectors.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.ObjectModel.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Reflection.DispatchProxy.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Reflection.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Reflection.Emit.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Reflection.Extensions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Reflection.Metadata">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Reflection.Metadata.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Reflection.Primitives.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Reflection.TypeExtensions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Reflection.TypeExtensions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Resources.Reader.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Resources.ResourceManager.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Resources.Writer.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Runtime.Extensions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Runtime.Handles.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Runtime.InteropServices.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.Intrinsics">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Runtime.Intrinsics.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.Loader">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Runtime.Loader.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Runtime.Numerics.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Runtime.Serialization.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Runtime.Serialization.Json.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Runtime.Serialization.Xml.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security.AccessControl">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Security.AccessControl.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Security.Claims.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Cng">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Security.Cryptography.Cng.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Security.Cryptography.Csp.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Security.Cryptography.Encoding.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.OpenSsl">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Security.Cryptography.OpenSsl.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Security.Cryptography.Primitives.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Xml">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\System.Security.Cryptography.Xml.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Security.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security.Permissions">
+      <HintPath>C:\Users\user1\.nuget\packages\system.security.permissions\4.7.0\ref\netcoreapp3.0\System.Security.Permissions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Security.Principal.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Security.Principal.Windows.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Security.SecureString.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.ServiceModel.Web.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.ServiceProcess">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.ServiceProcess.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Text.Encoding.CodePages">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Text.Encoding.CodePages.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Text.Encoding.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Text.Encoding.Extensions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Text.Encodings.Web.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Text.Json.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Text.RegularExpressions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Threading.Channels">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Threading.Channels.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Threading.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Threading.Overlapped.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Dataflow">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Threading.Tasks.Dataflow.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Threading.Tasks.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Threading.Tasks.Extensions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Threading.Tasks.Parallel.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Threading.Thread.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Threading.ThreadPool.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Threading.Timer.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Transactions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Transactions.Local">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Transactions.Local.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.ValueTuple.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Web.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.aspnet.webpages\3.3.0\lib\net45\System.Web.Helpers.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.HttpUtility">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Web.HttpUtility.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.aspnet.mvc\5.3.0\lib\net45\System.Web.Mvc.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.Razor">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.aspnet.razor\3.3.0\lib\net45\System.Web.Razor.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.aspnet.webpages\3.3.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.WebPages">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.aspnet.webpages\3.3.0\lib\net45\System.Web.WebPages.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor">
+      <HintPath>C:\Users\user1\.nuget\packages\microsoft.aspnet.webpages\3.3.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Windows.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Windows.Extensions">
+      <HintPath>C:\Users\user1\.nuget\packages\system.windows.extensions\4.7.0\ref\netcoreapp3.0\System.Windows.Extensions.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Xml.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Xml.Linq.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Xml.ReaderWriter.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Xml.Serialization.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Xml.XDocument.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Xml.XmlDocument.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Xml.XmlSerializer.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Xml.XPath.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Xml.XPath.XDocument.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\WindowsBase.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <Target Name="FakesAddAliases" BeforeTargets="ResolveReferences">
+    <ItemGroup>
+      <ReferencePath Include="D:\gym-API-main\Gym.Core\bin\Debug\net6.0\Gym.Core.dll">
+        <Aliases>gc</Aliases>
+      </ReferencePath>
+      <ReferencePath Include="C:\Users\user1\.nuget\packages\automapper\13.0.0\lib\net6.0\AutoMapper.dll">
+        <Aliases>am</Aliases>
+      </ReferencePath>
+      <ReferencePath Include="C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.Core.dll">
+        <Aliases>mancmc</Aliases>
+      </ReferencePath>
+      <ReferencePath Include="C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Collections.dll">
+        <Aliases>sc</Aliases>
+      </ReferencePath>
+    </ItemGroup>
+  </Target>
+</Project>
