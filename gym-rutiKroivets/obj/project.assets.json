@@ -6098,11 +6098,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\gym-API-main\\gym-rutiKroivets\\gym-rutiKroivets.csproj",
+      "projectUniqueName": "F:\\gym-API-main\\gym-rutiKroivets\\gym-rutiKroivets.csproj",
       "projectName": "gym-rutiKroivets",
-      "projectPath": "D:\\gym-API-main\\gym-rutiKroivets\\gym-rutiKroivets.csproj",
+      "projectPath": "F:\\gym-API-main\\gym-rutiKroivets\\gym-rutiKroivets.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "D:\\gym-API-main\\gym-rutiKroivets\\obj\\",
+      "outputPath": "F:\\gym-API-main\\gym-rutiKroivets\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6124,14 +6124,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\gym-API-main\\Gym.Core\\Gym.Core.csproj": {
-              "projectPath": "D:\\gym-API-main\\Gym.Core\\Gym.Core.csproj"
+            "F:\\gym-API-main\\Gym.Core\\Gym.Core.csproj": {
+              "projectPath": "F:\\gym-API-main\\Gym.Core\\Gym.Core.csproj"
             },
-            "D:\\gym-API-main\\Gym.Data\\Gym.Data.csproj": {
-              "projectPath": "D:\\gym-API-main\\Gym.Data\\Gym.Data.csproj"
+            "F:\\gym-API-main\\Gym.Data\\Gym.Data.csproj": {
+              "projectPath": "F:\\gym-API-main\\Gym.Data\\Gym.Data.csproj"
             },
-            "D:\\gym-API-main\\Gym.Service\\Gym.Service.csproj": {
-              "projectPath": "D:\\gym-API-main\\Gym.Service\\Gym.Service.csproj"
+            "F:\\gym-API-main\\Gym.Service\\Gym.Service.csproj": {
+              "projectPath": "F:\\gym-API-main\\Gym.Service\\Gym.Service.csproj"
             }
           }
         }

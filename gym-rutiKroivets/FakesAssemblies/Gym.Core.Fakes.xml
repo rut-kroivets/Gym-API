@@ -352,20 +352,20 @@
         <member name="F:Gym.Core.Repository.Fakes.StubIGuideRepository.DeleteAsyncInt32">
             <summary>Sets the stub of IGuideRepository.DeleteAsync(IGuideRepository this, Int32 id)</summary>
         </member>
-        <member name="F:Gym.Core.Repository.Fakes.StubIGuideRepository.Get">
-            <summary>Sets the stub of IGuideRepository.Get(IGuideRepository this)</summary>
+        <member name="F:Gym.Core.Repository.Fakes.StubIGuideRepository.GetAsync">
+            <summary>Sets the stub of IGuideRepository.GetAsync(IGuideRepository this)</summary>
         </member>
-        <member name="F:Gym.Core.Repository.Fakes.StubIGuideRepository.GetInt32">
-            <summary>Sets the stub of IGuideRepository.Get(IGuideRepository this, Int32 id)</summary>
+        <member name="F:Gym.Core.Repository.Fakes.StubIGuideRepository.GetAsyncInt32">
+            <summary>Sets the stub of IGuideRepository.GetAsync(IGuideRepository this, Int32 id)</summary>
         </member>
         <member name="M:Gym.Core.Repository.Fakes.StubIGuideRepository.Gym#Core#Repository#IGuideRepository#DeleteAsync(System.Int32)">
             <summary>Sets the Stub of IGuideRepository.DeleteAsync(IGuideRepository this, Int32 id)</summary>
         </member>
-        <member name="M:Gym.Core.Repository.Fakes.StubIGuideRepository.Gym#Core#Repository#IGuideRepository#Get(System.Int32)">
-            <summary>Sets the Stub of IGuideRepository.Get(IGuideRepository this, Int32 id)</summary>
+        <member name="M:Gym.Core.Repository.Fakes.StubIGuideRepository.Gym#Core#Repository#IGuideRepository#GetAsync">
+            <summary>Sets the Stub of IGuideRepository.GetAsync(IGuideRepository this)</summary>
         </member>
-        <member name="M:Gym.Core.Repository.Fakes.StubIGuideRepository.Gym#Core#Repository#IGuideRepository#Get">
-            <summary>Sets the Stub of IGuideRepository.Get(IGuideRepository this)</summary>
+        <member name="M:Gym.Core.Repository.Fakes.StubIGuideRepository.Gym#Core#Repository#IGuideRepository#GetAsync(System.Int32)">
+            <summary>Sets the Stub of IGuideRepository.GetAsync(IGuideRepository this, Int32 id)</summary>
         </member>
         <member name="M:Gym.Core.Repository.Fakes.StubIGuideRepository.Gym#Core#Repository#IGuideRepository#PostAsync(gym_rutiKroivets.Entities.Guide)">
             <summary>Sets the Stub of IGuideRepository.PostAsync(IGuideRepository this, Guide g)</summary>
@@ -388,20 +388,20 @@
         <member name="F:Gym.Core.Repository.Fakes.StubIStudentRepository.DeleteAsyncInt32">
             <summary>Sets the stub of IStudentRepository.DeleteAsync(IStudentRepository this, Int32 id)</summary>
         </member>
-        <member name="F:Gym.Core.Repository.Fakes.StubIStudentRepository.Get">
-            <summary>Sets the stub of IStudentRepository.Get(IStudentRepository this)</summary>
+        <member name="F:Gym.Core.Repository.Fakes.StubIStudentRepository.GetAsync">
+            <summary>Sets the stub of IStudentRepository.GetAsync(IStudentRepository this)</summary>
         </member>
-        <member name="F:Gym.Core.Repository.Fakes.StubIStudentRepository.GetInt32">
-            <summary>Sets the stub of IStudentRepository.Get(IStudentRepository this, Int32 id)</summary>
+        <member name="F:Gym.Core.Repository.Fakes.StubIStudentRepository.GetAsyncInt32">
+            <summary>Sets the stub of IStudentRepository.GetAsync(IStudentRepository this, Int32 id)</summary>
         </member>
         <member name="M:Gym.Core.Repository.Fakes.StubIStudentRepository.Gym#Core#Repository#IStudentRepository#DeleteAsync(System.Int32)">
             <summary>Sets the Stub of IStudentRepository.DeleteAsync(IStudentRepository this, Int32 id)</summary>
         </member>
-        <member name="M:Gym.Core.Repository.Fakes.StubIStudentRepository.Gym#Core#Repository#IStudentRepository#Get(System.Int32)">
-            <summary>Sets the Stub of IStudentRepository.Get(IStudentRepository this, Int32 id)</summary>
+        <member name="M:Gym.Core.Repository.Fakes.StubIStudentRepository.Gym#Core#Repository#IStudentRepository#GetAsync">
+            <summary>Sets the Stub of IStudentRepository.GetAsync(IStudentRepository this)</summary>
         </member>
-        <member name="M:Gym.Core.Repository.Fakes.StubIStudentRepository.Gym#Core#Repository#IStudentRepository#Get">
-            <summary>Sets the Stub of IStudentRepository.Get(IStudentRepository this)</summary>
+        <member name="M:Gym.Core.Repository.Fakes.StubIStudentRepository.Gym#Core#Repository#IStudentRepository#GetAsync(System.Int32)">
+            <summary>Sets the Stub of IStudentRepository.GetAsync(IStudentRepository this, Int32 id)</summary>
         </member>
         <member name="M:Gym.Core.Repository.Fakes.StubIStudentRepository.Gym#Core#Repository#IStudentRepository#PostAsync(gym_rutiKroivets.Entities.Student)">
             <summary>Sets the Stub of IStudentRepository.PostAsync(IStudentRepository this, Student s)</summary>
@@ -424,20 +424,20 @@
         <member name="F:Gym.Core.Repository.Fakes.StubITrainingRepository.DeleteAsyncInt32">
             <summary>Sets the stub of ITrainingRepository.DeleteAsync(ITrainingRepository this, Int32 id)</summary>
         </member>
-        <member name="F:Gym.Core.Repository.Fakes.StubITrainingRepository.Get">
-            <summary>Sets the stub of ITrainingRepository.Get(ITrainingRepository this)</summary>
+        <member name="F:Gym.Core.Repository.Fakes.StubITrainingRepository.GetAsync">
+            <summary>Sets the stub of ITrainingRepository.GetAsync(ITrainingRepository this)</summary>
         </member>
-        <member name="F:Gym.Core.Repository.Fakes.StubITrainingRepository.GetInt32">
-            <summary>Sets the stub of ITrainingRepository.Get(ITrainingRepository this, Int32 id)</summary>
+        <member name="F:Gym.Core.Repository.Fakes.StubITrainingRepository.GetAsyncInt32">
+            <summary>Sets the stub of ITrainingRepository.GetAsync(ITrainingRepository this, Int32 id)</summary>
         </member>
         <member name="M:Gym.Core.Repository.Fakes.StubITrainingRepository.Gym#Core#Repository#ITrainingRepository#DeleteAsync(System.Int32)">
             <summary>Sets the Stub of ITrainingRepository.DeleteAsync(ITrainingRepository this, Int32 id)</summary>
         </member>
-        <member name="M:Gym.Core.Repository.Fakes.StubITrainingRepository.Gym#Core#Repository#ITrainingRepository#Get(System.Int32)">
-            <summary>Sets the Stub of ITrainingRepository.Get(ITrainingRepository this, Int32 id)</summary>
+        <member name="M:Gym.Core.Repository.Fakes.StubITrainingRepository.Gym#Core#Repository#ITrainingRepository#GetAsync">
+            <summary>Sets the Stub of ITrainingRepository.GetAsync(ITrainingRepository this)</summary>
         </member>
-        <member name="M:Gym.Core.Repository.Fakes.StubITrainingRepository.Gym#Core#Repository#ITrainingRepository#Get">
-            <summary>Sets the Stub of ITrainingRepository.Get(ITrainingRepository this)</summary>
+        <member name="M:Gym.Core.Repository.Fakes.StubITrainingRepository.Gym#Core#Repository#ITrainingRepository#GetAsync(System.Int32)">
+            <summary>Sets the Stub of ITrainingRepository.GetAsync(ITrainingRepository this, Int32 id)</summary>
         </member>
         <member name="M:Gym.Core.Repository.Fakes.StubITrainingRepository.Gym#Core#Repository#ITrainingRepository#PostAsync(gym_rutiKroivets.Entities.Training)">
             <summary>Sets the Stub of ITrainingRepository.PostAsync(ITrainingRepository this, Training t)</summary>
@@ -460,20 +460,20 @@
         <member name="F:Gym.Core.Service.Fakes.StubIGuideService.DeleteAsyncInt32">
             <summary>Sets the stub of IGuideService.DeleteAsync(IGuideService this, Int32 id)</summary>
         </member>
-        <member name="F:Gym.Core.Service.Fakes.StubIGuideService.Get">
-            <summary>Sets the stub of IGuideService.Get(IGuideService this)</summary>
+        <member name="F:Gym.Core.Service.Fakes.StubIGuideService.GetAsync">
+            <summary>Sets the stub of IGuideService.GetAsync(IGuideService this)</summary>
         </member>
-        <member name="F:Gym.Core.Service.Fakes.StubIGuideService.GetInt32">
-            <summary>Sets the stub of IGuideService.Get(IGuideService this, Int32 id)</summary>
+        <member name="F:Gym.Core.Service.Fakes.StubIGuideService.GetAsyncInt32">
+            <summary>Sets the stub of IGuideService.GetAsync(IGuideService this, Int32 id)</summary>
         </member>
         <member name="M:Gym.Core.Service.Fakes.StubIGuideService.Gym#Core#Service#IGuideService#DeleteAsync(System.Int32)">
             <summary>Sets the Stub of IGuideService.DeleteAsync(IGuideService this, Int32 id)</summary>
         </member>
-        <member name="M:Gym.Core.Service.Fakes.StubIGuideService.Gym#Core#Service#IGuideService#Get(System.Int32)">
-            <summary>Sets the Stub of IGuideService.Get(IGuideService this, Int32 id)</summary>
+        <member name="M:Gym.Core.Service.Fakes.StubIGuideService.Gym#Core#Service#IGuideService#GetAsync">
+            <summary>Sets the Stub of IGuideService.GetAsync(IGuideService this)</summary>
         </member>
-        <member name="M:Gym.Core.Service.Fakes.StubIGuideService.Gym#Core#Service#IGuideService#Get">
-            <summary>Sets the Stub of IGuideService.Get(IGuideService this)</summary>
+        <member name="M:Gym.Core.Service.Fakes.StubIGuideService.Gym#Core#Service#IGuideService#GetAsync(System.Int32)">
+            <summary>Sets the Stub of IGuideService.GetAsync(IGuideService this, Int32 id)</summary>
         </member>
         <member name="M:Gym.Core.Service.Fakes.StubIGuideService.Gym#Core#Service#IGuideService#PostAsync(gym_rutiKroivets.Entities.Guide)">
             <summary>Sets the Stub of IGuideService.PostAsync(IGuideService this, Guide g)</summary>
@@ -496,20 +496,20 @@
         <member name="F:Gym.Core.Service.Fakes.StubIStudentService.DeleteAsyncInt32">
             <summary>Sets the stub of IStudentService.DeleteAsync(IStudentService this, Int32 id)</summary>
         </member>
-        <member name="F:Gym.Core.Service.Fakes.StubIStudentService.Get">
-            <summary>Sets the stub of IStudentService.Get(IStudentService this)</summary>
+        <member name="F:Gym.Core.Service.Fakes.StubIStudentService.GetAsync">
+            <summary>Sets the stub of IStudentService.GetAsync(IStudentService this)</summary>
         </member>
-        <member name="F:Gym.Core.Service.Fakes.StubIStudentService.GetInt32">
-            <summary>Sets the stub of IStudentService.Get(IStudentService this, Int32 id)</summary>
+        <member name="F:Gym.Core.Service.Fakes.StubIStudentService.GetAsyncInt32">
+            <summary>Sets the stub of IStudentService.GetAsync(IStudentService this, Int32 id)</summary>
         </member>
         <member name="M:Gym.Core.Service.Fakes.StubIStudentService.Gym#Core#Service#IStudentService#DeleteAsync(System.Int32)">
             <summary>Sets the Stub of IStudentService.DeleteAsync(IStudentService this, Int32 id)</summary>
         </member>
-        <member name="M:Gym.Core.Service.Fakes.StubIStudentService.Gym#Core#Service#IStudentService#Get(System.Int32)">
-            <summary>Sets the Stub of IStudentService.Get(IStudentService this, Int32 id)</summary>
+        <member name="M:Gym.Core.Service.Fakes.StubIStudentService.Gym#Core#Service#IStudentService#GetAsync">
+            <summary>Sets the Stub of IStudentService.GetAsync(IStudentService this)</summary>
         </member>
-        <member name="M:Gym.Core.Service.Fakes.StubIStudentService.Gym#Core#Service#IStudentService#Get">
-            <summary>Sets the Stub of IStudentService.Get(IStudentService this)</summary>
+        <member name="M:Gym.Core.Service.Fakes.StubIStudentService.Gym#Core#Service#IStudentService#GetAsync(System.Int32)">
+            <summary>Sets the Stub of IStudentService.GetAsync(IStudentService this, Int32 id)</summary>
         </member>
         <member name="M:Gym.Core.Service.Fakes.StubIStudentService.Gym#Core#Service#IStudentService#PostAsync(gym_rutiKroivets.Entities.Student)">
             <summary>Sets the Stub of IStudentService.PostAsync(IStudentService this, Student s)</summary>
@@ -532,20 +532,20 @@
         <member name="F:Gym.Core.Service.Fakes.StubITrainingService.DeleteAsyncInt32">
             <summary>Sets the stub of ITrainingService.DeleteAsync(ITrainingService this, Int32 id)</summary>
         </member>
-        <member name="F:Gym.Core.Service.Fakes.StubITrainingService.Get">
-            <summary>Sets the stub of ITrainingService.Get(ITrainingService this)</summary>
+        <member name="F:Gym.Core.Service.Fakes.StubITrainingService.GetAsync">
+            <summary>Sets the stub of ITrainingService.GetAsync(ITrainingService this)</summary>
         </member>
-        <member name="F:Gym.Core.Service.Fakes.StubITrainingService.GetInt32">
-            <summary>Sets the stub of ITrainingService.Get(ITrainingService this, Int32 id)</summary>
+        <member name="F:Gym.Core.Service.Fakes.StubITrainingService.GetAsyncInt32">
+            <summary>Sets the stub of ITrainingService.GetAsync(ITrainingService this, Int32 id)</summary>
         </member>
         <member name="M:Gym.Core.Service.Fakes.StubITrainingService.Gym#Core#Service#ITrainingService#DeleteAsync(System.Int32)">
             <summary>Sets the Stub of ITrainingService.DeleteAsync(ITrainingService this, Int32 id)</summary>
         </member>
-        <member name="M:Gym.Core.Service.Fakes.StubITrainingService.Gym#Core#Service#ITrainingService#Get(System.Int32)">
-            <summary>Sets the Stub of ITrainingService.Get(ITrainingService this, Int32 id)</summary>
+        <member name="M:Gym.Core.Service.Fakes.StubITrainingService.Gym#Core#Service#ITrainingService#GetAsync">
+            <summary>Sets the Stub of ITrainingService.GetAsync(ITrainingService this)</summary>
         </member>
-        <member name="M:Gym.Core.Service.Fakes.StubITrainingService.Gym#Core#Service#ITrainingService#Get">
-            <summary>Sets the Stub of ITrainingService.Get(ITrainingService this)</summary>
+        <member name="M:Gym.Core.Service.Fakes.StubITrainingService.Gym#Core#Service#ITrainingService#GetAsync(System.Int32)">
+            <summary>Sets the Stub of ITrainingService.GetAsync(ITrainingService this, Int32 id)</summary>
         </member>
         <member name="M:Gym.Core.Service.Fakes.StubITrainingService.Gym#Core#Service#ITrainingService#PostAsync(gym_rutiKroivets.Entities.Training)">
             <summary>Sets the Stub of ITrainingService.PostAsync(ITrainingService this, Training t)</summary>

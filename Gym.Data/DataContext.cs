@@ -13,11 +13,6 @@ namespace gym_rutiKroivets
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //if (!optionsBuilder.IsConfigured)
-            //{
-            //    optionsBuilder.UseSqlServer(connectionString,
-            //        b => b.MigrationsAssembly("gym-rutiKroivets"));
-            //}
 
             optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=sample_db");
         }

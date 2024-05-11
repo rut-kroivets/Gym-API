@@ -20,13 +20,13 @@ namespace Gym.Data.Repository
         {
             _dataContext = context;
         }      
-        public IEnumerable<Guide> Get()
+        public async Task<IEnumerable<Guide>> GetAsync()
         {
-            return _dataContext.guides;
+             return await _dataContext.guides.ToListAsync(); ;
         }
-        public ActionResult<Guide> Get(int id)
+        public async Task<Guide> GetAsync(int id)
         {
-            return _dataContext.guides.Find(id);
+            return await _dataContext.guides.FindAsync(id);
         }
         public async Task<Guide> PostAsync(Guide g)
         {

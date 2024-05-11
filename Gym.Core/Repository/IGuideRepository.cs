@@ -10,8 +10,8 @@ namespace Gym.Core.Repository
 {
     public interface IGuideRepository
     {
-        public IEnumerable<Guide> Get();
-        public ActionResult<Guide> Get(int id);
+        public Task<IEnumerable<Guide>> GetAsync();
+        public Task<Guide> GetAsync(int id);
         public Task<Guide> PostAsync(Guide g);
         public Task PutAsync(int id, Guide g);
         public Task DeleteAsync(int id);

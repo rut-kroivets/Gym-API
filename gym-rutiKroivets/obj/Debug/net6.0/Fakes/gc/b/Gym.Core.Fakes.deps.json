@@ -56,6 +56,7 @@
           "Microsoft.AspNetCore.Metadata": "6.0.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "6.0.0.0",
           "Microsoft.AspNetCore.Mvc.ApiExplorer": "6.0.0.0",
+          "Microsoft.AspNetCore.Mvc.Core": "6.0.0.0",
           "Microsoft.AspNetCore.Mvc.Cors": "6.0.0.0",
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "6.0.0.0",
           "Microsoft.AspNetCore.Mvc": "6.0.0.0",
@@ -166,8 +167,7 @@
           "System.Web.WebPages.Deployment": "3.0.0.0",
           "System.Web.WebPages": "3.0.0.0",
           "System.Web.WebPages.Razor": "3.0.0.0",
-          "System.Windows.Extensions": "4.0.1.0",
-          "Microsoft.AspNetCore.Mvc.Core": "0.0.0.0"
+          "System.Windows.Extensions": "4.0.1.0"
         },
         "runtime": {
           "Gym.Core.Fakes.dll": {}
@@ -552,6 +552,14 @@
       "Microsoft.AspNetCore.Mvc.ApiExplorer/6.0.0.0": {
         "runtime": {
           "Microsoft.AspNetCore.Mvc.ApiExplorer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1022.47617"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.Core/6.0.0.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Mvc.Core.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.1022.47617"
           }
@@ -1486,27 +1494,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.Core/0.0.0.0": {
-        "runtime": {
-          "Microsoft.AspNetCore.Mvc.Core.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.1022.47617"
-          }
-        }
-      },
       "Gym.Core/1.0.0.0": {
         "runtime": {
           "Gym.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Mvc.Core.Reference/6.0.0.0": {
-        "runtime": {
-          "Microsoft.AspNetCore.Mvc.Core.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.1022.47617"
           }
         }
       }
@@ -1754,6 +1746,11 @@
       "sha512": ""
     },
     "Microsoft.AspNetCore.Mvc.ApiExplorer/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Mvc.Core/6.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -2313,17 +2310,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Mvc.Core/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Gym.Core/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.AspNetCore.Mvc.Core.Reference/6.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

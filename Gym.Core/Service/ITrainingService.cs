@@ -10,9 +10,9 @@ namespace Gym.Core.Service
 {
     public interface ITrainingService
     {
-        public IEnumerable<Training> Get();
+        public Task<IEnumerable<Training>> GetAsync();
 
-        public ActionResult<Training> Get(int id);
+        public Task<Training> GetAsync(int id);
 
         public Task<Training> PostAsync(Training t);
 

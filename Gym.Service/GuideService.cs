@@ -18,14 +18,14 @@ namespace Gym.Service
         {
             _guideRepository = context1;
         }
-        public IEnumerable<Guide> Get()
+        public async Task<IEnumerable<Guide>> GetAsync()
         {
-            return _guideRepository.Get();
+            return await _guideRepository.GetAsync();
         }
 
-        public ActionResult<Guide> Get(int id)
+        public async Task<Guide> GetAsync(int id)
         {
-            return _guideRepository.Get(id);
+            return await _guideRepository.GetAsync(id);
         }
 
         public async Task<Guide> PostAsync(Guide g)

@@ -25,17 +25,17 @@ namespace gym_rutiKroivets.Controllers
     
         // GET: api/<ValuesController>
         [HttpGet]
-        public ActionResult<IEnumerable<Student>> Get()
+        public async Task<ActionResult<IEnumerable<Student>>> Get()
         {
-            var list = _studentService.Get();
+            var list = await _studentService.GetAsync();
             var listDto = _mapper.Map<IEnumerable<StudentDto>>(list);
             return Ok(listDto);
         }
         // GET: api/<ValuesController>
         [HttpGet("{id}")]
-        public ActionResult<Student> Get(int id)
+        public async Task<ActionResult<Student>> Get(int id)
         {
-            var student = _studentService.Get(id);
+            var student = await _studentService.GetAsync(id);
             var studentDto = _mapper.Map<StudentDto>(student);
             return Ok(studentDto);
 
@@ -55,14 +55,14 @@ namespace gym_rutiKroivets.Controllers
         [HttpPut("{id}")]
         public async Task<ActionResult> Put(int id, [FromBody] StudentPostModel s)
         {
-            ActionResult<Student> existStudent = _studentService.Get(id);
-            if (existStudent.Value is null)
+            Student existStudent = await _studentService.GetAsync(id);
+            if (existStudent is null)
             {
                 return NotFound();
             }
             _mapper.Map(s, existStudent);
 
-            await _studentService.PutAsync(id, existStudent.Value);
+            await _studentService.PutAsync(id, existStudent);
 
             return Ok(_mapper.Map<StudentDto>(existStudent));
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9bFAy5Fm60EvcPt4ku3/KDHuhtispcTSfheZi9m7GsYwOy9FI7Boi4dBYedqzqcSkYIlbB2eavOBSncRJ3c0OQ==",
+  "dgSpecHash": "V+36sfoKvNF04ZV6CDTAjzPvZ1IDqfp9ImXgt0/8u09JnsrlsrgCvnvuhok7nvpDxVVDn3301vnhW0HjFRGMXQ==",
   "success": true,
-  "projectFilePath": "D:\\gym-API-main\\gym-rutiKroivets\\gym-rutiKroivets.csproj",
+  "projectFilePath": "F:\\gym-API-main\\gym-rutiKroivets\\gym-rutiKroivets.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\automapper\\13.0.0\\automapper.13.0.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

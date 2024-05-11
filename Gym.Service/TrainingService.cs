@@ -17,13 +17,13 @@ namespace Gym.Service
         {
             _trainingRepository = context;
         }
-        public IEnumerable<Training> Get()
+        public async Task<IEnumerable<Training>> GetAsync()
         {
-            return _trainingRepository.Get();
+            return await _trainingRepository.GetAsync();
         }
-        public ActionResult<Training> Get(int id)
+        public async Task<Training> GetAsync(int id)
         {
-            return _trainingRepository.Get(id);
+            return await _trainingRepository.GetAsync(id);
 
         }
         public async Task<Training> PostAsync(Training t)

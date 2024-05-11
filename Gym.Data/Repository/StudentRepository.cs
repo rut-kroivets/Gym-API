@@ -19,14 +19,14 @@ namespace Gym.Data.Repository
             _dataContext = context;
         }
 
-        public IEnumerable<Student> Get()
+        public async Task<IEnumerable<Student>> GetAsync()
         {
-            return _dataContext.students;
+            return await _dataContext.students.ToListAsync();
         }
 
-        public ActionResult<Student> Get(int id)
+        public async Task<Student> GetAsync(int id)
         {
-            return _dataContext.students.Find(id);
+            return await _dataContext.students.FindAsync(id);
         }
         public async Task<Student> PostAsync(Student s)
         {           

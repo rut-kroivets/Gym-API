@@ -22,17 +22,17 @@ namespace gym_rutiKroivets.Controllers
         }
         // GET: api/<ValuesController>
         [HttpGet]
-        public ActionResult<IEnumerable<Guide>> Get()
+        public async Task<ActionResult<IEnumerable<Guide>>> Get()
         {
-            var list = _guideService.Get();
+            var list = await _guideService.GetAsync();
             var listDto = _mapper.Map<IEnumerable<GuideDto>>(list);
             return Ok(listDto);
         }
         // GET: api/<ValuesController>
         [HttpGet("{id}")]
-        public ActionResult<Guide> Get(int id)
+        public async Task<ActionResult<Guide>> Get(int id)
         {
-            var guide= _guideService.Get(id);
+            var guide= await _guideService.GetAsync(id);
             var guideDto = _mapper.Map<GuideDto>(guide);
             return Ok(guideDto);
         }
@@ -51,15 +51,15 @@ namespace gym_rutiKroivets.Controllers
         [HttpPut("{id}")]
         public async Task<ActionResult> Put(int id, [FromBody] GuidePostModel g)
         {
-            ActionResult<Guide> existGuide = _guideService.Get(id);
+            Guide existGuide = await _guideService.GetAsync(id);
 
-            if (existGuide.Value is null)
+            if (existGuide is null)
             {
                 return NotFound();
             }
             _mapper.Map(g, existGuide);
 
-            await _guideService.PutAsync(id,existGuide.Value);
+            await _guideService.PutAsync(id,existGuide);
 
             return Ok(_mapper.Map<GuideDto>(existGuide));
         }

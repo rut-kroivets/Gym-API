@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0X579nLx0itAT8iYDPU7HQhJo+yj7ic5a6zqkiqEDaDY5XRgma9OAefGKQuF/LnIEY3OvBMLCS4yqJAX77n62Q==",
+  "dgSpecHash": "FnaGQy9aXeaeTAqVISGm2pr4b79c2+cxS8ky9XKrfCjZuH9f9yyMuoLp/fkH2QPqtgduRZofJPvmvmXKZAlpkw==",
   "success": true,
-  "projectFilePath": "D:\\gym-API-main\\Gym.Core\\Gym.Core.csproj",
+  "projectFilePath": "F:\\gym-API-main\\Gym.Core\\Gym.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\automapper\\13.0.0\\automapper.13.0.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

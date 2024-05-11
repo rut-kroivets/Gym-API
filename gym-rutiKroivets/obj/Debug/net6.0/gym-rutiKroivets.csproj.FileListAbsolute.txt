@@ -2707,3 +2707,4 @@ E:\gym-API-main\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.pdb
 E:\gym-API-main\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.genruntimeconfig.cache
 E:\gym-API-main\gym-rutiKroivets\obj\Debug\net6.0\ref\gym-rutiKroivets.dll
 D:\gym-API-main\gym-rutiKroivets\bin\Debug\net6.0\AutoMapper.dll
+F:\gym-API-main\gym-rutiKroivets\bin\Debug\net6.0\AutoMapper.dll

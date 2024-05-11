@@ -4011,11 +4011,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\gym-API-main\\Gym.Service\\Gym.Service.csproj",
+      "projectUniqueName": "F:\\gym-API-main\\Gym.Service\\Gym.Service.csproj",
       "projectName": "Gym.Service",
-      "projectPath": "D:\\gym-API-main\\Gym.Service\\Gym.Service.csproj",
+      "projectPath": "F:\\gym-API-main\\Gym.Service\\Gym.Service.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "D:\\gym-API-main\\Gym.Service\\obj\\",
+      "outputPath": "F:\\gym-API-main\\Gym.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4037,8 +4037,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\gym-API-main\\Gym.Core\\Gym.Core.csproj": {
-              "projectPath": "D:\\gym-API-main\\Gym.Core\\Gym.Core.csproj"
+            "F:\\gym-API-main\\Gym.Core\\Gym.Core.csproj": {
+              "projectPath": "F:\\gym-API-main\\Gym.Core\\Gym.Core.csproj"
             }
           }
         }

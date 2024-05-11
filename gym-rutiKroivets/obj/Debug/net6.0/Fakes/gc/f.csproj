@@ -33,11 +33,11 @@
       <Aliases>mqttf</Aliases>
     </Reference>
     <Reference Include="Gym.Data">
-      <HintPath>D:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.dll</HintPath>
+      <HintPath>F:\gym-API-main\Gym.Data\bin\Debug\net6.0\Gym.Data.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Gym.Service">
-      <HintPath>D:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.dll</HintPath>
+      <HintPath>F:\gym-API-main\Gym.Service\bin\Debug\net6.0\Gym.Service.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.AspNetCore.Antiforgery">
@@ -222,6 +222,10 @@
     </Reference>
     <Reference Include="Microsoft.AspNetCore.Mvc.ApiExplorer">
       <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.ApiExplorer.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Core">
+      <HintPath>C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.Core.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.AspNetCore.Mvc.Cors">
@@ -1289,14 +1293,11 @@
   <ItemGroup />
   <Target Name="FakesAddAliases" BeforeTargets="ResolveReferences">
     <ItemGroup>
-      <ReferencePath Include="D:\gym-API-main\Gym.Core\bin\Debug\net6.0\Gym.Core.dll">
+      <ReferencePath Include="F:\gym-API-main\Gym.Core\bin\Debug\net6.0\Gym.Core.dll">
         <Aliases>gc</Aliases>
       </ReferencePath>
       <ReferencePath Include="C:\Users\user1\.nuget\packages\automapper\13.0.0\lib\net6.0\AutoMapper.dll">
         <Aliases>am</Aliases>
-      </ReferencePath>
-      <ReferencePath Include="C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\6.0.10\ref\net6.0\Microsoft.AspNetCore.Mvc.Core.dll">
-        <Aliases>mancmc</Aliases>
       </ReferencePath>
       <ReferencePath Include="C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.10\ref\net6.0\System.Collections.dll">
         <Aliases>sc</Aliases>

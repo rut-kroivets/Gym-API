@@ -11,9 +11,9 @@ namespace Gym.Core.Repository
 {
     public interface IStudentRepository
     {
-        public IEnumerable<Student> Get();
+        public Task<IEnumerable<Student>> GetAsync();
 
-        public ActionResult<Student> Get(int id);
+        public Task<Student> GetAsync(int id);
 
         public Task<Student> PostAsync(Student s);
 
